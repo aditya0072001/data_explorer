@@ -4,6 +4,7 @@ import plotly.express as px
 import base64
 from io import BytesIO
 import statsmodels.api as sm
+import numpy as np
 
 def to_excel(df):
     output = BytesIO()
