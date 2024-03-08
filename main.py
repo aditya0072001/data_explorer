@@ -132,11 +132,11 @@ for uploaded_file in uploaded_files:
             st.download_button(label='📥 Download Current Result as Excel',
                                data=df_xlsx,
                                file_name='dataframe.xlsx')
-            df_pdf = to_pdf(dataframe, "Data Analysis Report")
-            st.download_button(label="📥 Download Current Result as PDF",
-                   data=df_pdf,
-                   file_name="data_analysis_report.pdf",
-                   mime="application/pdf")
+           # df_pdf = to_pdf(dataframe, "Data Analysis Report")
+           # st.download_button(label="📥 Download Current Result as PDF",
+           #        data=df_pdf,
+           #        file_name="data_analysis_report.pdf",
+           #        mime="application/pdf")
 
 
 with st.form("my_form"):
