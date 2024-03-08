@@ -26,7 +26,6 @@ def to_pdf(df, title):
     return pdf
 
 
-# Improved to_excel function with context manager
 def to_excel(df):
     output = BytesIO()
     with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
